@@ -19,6 +19,6 @@ If you don't want to use the git submodule you can manually pass a file to the `
 
 ### Factory with manual file
 
-   $factory = new \Rossey\Blns\NaughtyStringsFactory(PATH_TO_FILE);
+    $factory = new \Rossey\Blns\NaughtyStringsFactory(PATH_TO_FILE);
 
 The factory will return an array of `NaughtyString` objects. The `NaughtyString` has a `__toString` method so you'll need to cast it to a string.
