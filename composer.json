@@ -1,0 +1,19 @@
+{
+    "name": "rossey/big-list-of-naughty-strings",
+    "description": "Big List of Naughty Strings is a list of strings which have a high probability of causing issues when used as user-input data.",
+    "authors": [
+        {
+            "name": "Alex Ross",
+            "email": "rossey@gmail.com"
+        }
+    ],
+    "psr-4": {
+        "Rossey\\Blns\\": "src"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "./bin/install.sh"
+        ] 
+    },
+    "minimum-stability": "dev"
+}
